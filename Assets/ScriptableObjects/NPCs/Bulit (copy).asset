@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: Bulit (copy)
+  m_EditorClassIdentifier: 
+  _name: Bulit
+  npcTalkDialogue:
+  - "Nie interesuje mnie kim jeste\u015B. Czego tutaj szukasz?"
+  - "O ch\u0142opie. O czym ty bredzisz?"
+  - "Porozmawiaj z kupcem, stoi o tam. Chocia\u017C nie wiem czy co\u015B od niego
+    dostaniesz."
+  - "Bo jestem. Od kilku dni po ca\u0142ej wyspie \u0142a\u017C\u0105 szkielety, 
+    cholera go wie sk\u0105d. Lepiej uwa\u017Caj gdzie \u0142azisz."
+  npcTalkAudio:
+  - {fileID: 8300000, guid: 8a53ff444cbb849e88247813dfbe2620, type: 3}
+  - {fileID: 8300000, guid: e838112e35f774eea9a6c65bd88a2793, type: 3}
+  - {fileID: 8300000, guid: bdf74a910341a40b49051e552114d052, type: 3}
+  - {fileID: 8300000, guid: ad8a2debb4b9a4a3cadf7289952d2ef2, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue: []
+  playerTalkDialogue:
+  - "Witaj, nazywam si\u0119 ..."
+  - "Poszukuj\u0119 pot\u0119\u017Cnego artefaktu, szmaragdowego oczka. Powinno gdzie\u015B
+    si\u0119\_znajdowa\u0107 na tej wyspie."
+  - "Poszukuj\u0119 broni."
+  - "Wygl\u0105dasz na zmartwionego."
+  playerTalkAudio:
+  - {fileID: 8300000, guid: fa3f7a9389ba347ba8cb71a07c6c42ef, type: 3}
+  - {fileID: 8300000, guid: 72186e7ba245442a0bf0f85c429aa68a, type: 3}
+  - {fileID: 8300000, guid: bd00bd53b39ed4c0a8256a06c222215a, type: 3}
+  - {fileID: 8300000, guid: 0c97526caf21d4cccb9f31521f035139, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - exit

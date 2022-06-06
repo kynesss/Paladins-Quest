@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: Carl (copy)
+  m_EditorClassIdentifier: 
+  _name: Carl
+  npcTalkDialogue:
+  - "Uciekaj st\u0105d albo szkielety zrobi\u0105 z ciebie mielonk\u0119."
+  - "Radzi\u0142bym ci uwa\u017Ca\u0107 te szkielety potrafi\u0105 zabi\u0107 jednym
+    atakiem."
+  npcTalkAudio:
+  - {fileID: 8300000, guid: 912fcc215fd884d61af610d99d41a7d3, type: 3}
+  - {fileID: 8300000, guid: c40d32b89334a4daa8ad920d4fe49948, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue:
+  - 1
+  playerTalkDialogue:
+  - Jak leci?
+  - No, chyba nie!
+  playerTalkAudio:
+  - {fileID: 8300000, guid: bb904c30db5e94002a2ff66434853044, type: 3}
+  - {fileID: 8300000, guid: d9c28a6c54d094ebeaaf43f2a1e917d2, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - exit

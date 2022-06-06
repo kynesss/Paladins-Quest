@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289c86299c91853459f5740fb426713c, type: 3}
+  m_Name: Trader2
+  m_EditorClassIdentifier: 
+  Name: Food Trader
+  type: 1
+  gold: 8000
+  items:
+  - {fileID: 11400000, guid: 6aa71d8230cbfff4da12aa3cbc73e6d8, type: 2}
+  - {fileID: 11400000, guid: 577fc13fc92e4c94b9dd4e03bbe41138, type: 2}
+  - {fileID: 11400000, guid: c10321c59d7b4764ba07eb0c7cd6ecdf, type: 2}

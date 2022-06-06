@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: QuestWeirdMertchant (copy)
+  m_EditorClassIdentifier: 
+  _name: Podejrzany Kupiec
+  npcTalkDialogue:
+  - "Nie wierz\u0119. Uda\u0142o ci si\u0119! Cebulowe wej\u015Bcie zn\xF3w jest
+    otwarte. No dalej, le\u0107 po oczko. Tylko uwa\u017Caj na szkielety. To chyba
+    ich baza."
+  - "Nieeee maa mowy. Nie lubi\u0119 ciemno\u015Bci."
+  npcTalkAudio:
+  - {fileID: 8300000, guid: e7ffe3135b3e140e098c39d14a59227c, type: 3}
+  - {fileID: 8300000, guid: 3f423a1d39ca94d45ac2d4c30db9005a, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue:
+  - 1
+  playerTalkDialogue:
+  - "S\u0142uchaj ja nie wiem ... jaki\u015B kwadrat tam by\u0142, dotkn\u0105\u0142em
+    go i znikn\u0105\u0142."
+  - "Chod\u017A ze mn\u0105."
+  playerTalkAudio:
+  - {fileID: 8300000, guid: 826291674a98e4034af784c3f81ce5ca, type: 3}
+  - {fileID: 8300000, guid: 147837f6b0f9149a98cb56e9f649edae, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - exit

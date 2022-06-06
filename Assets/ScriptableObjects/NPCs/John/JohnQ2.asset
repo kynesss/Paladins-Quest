@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: JohnQ2
+  m_EditorClassIdentifier: 
+  _name: John
+  npcTalkDialogue:
+  - "Cholera, musz\u0119 tu posprz\u0105ta\u0107."
+  - "Pod\u0105rzaj ca\u0142y czas \u015Bcie\u017Ck\u0105, pr\u0119dzyj czy p\xF3\u017Aniej
+    dojdziesz do cmentarza."
+  npcTalkAudio:
+  - {fileID: 8300000, guid: 88b6f2a0cfeac4277a6aa2dc4debc20e, type: 3}
+  - {fileID: 8300000, guid: 801d2b654813940129152606c765ae14, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue:
+  - exit
+  playerTalkDialogue:
+  - Co teraz?
+  - "Jak doj\u015B\u0107 na cmentarz?"
+  playerTalkAudio:
+  - {fileID: 8300000, guid: d57edcbbcc49443e8b842a5016132ee5, type: 3}
+  - {fileID: 8300000, guid: 59f04b8c3227041489f8ad5d99fe17a5, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - exit

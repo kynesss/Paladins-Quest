@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: JohnQ1 (copy)
+  m_EditorClassIdentifier: 
+  _name: John
+  npcTalkDialogue:
+  - "Dzi\u0119ki wielkie za pomoc."
+  - "Wejd\u017A do drugiego pokoju i skr\u0119\u0107 w lewo. W magazynie powinny
+    jeszcze by\u0107 trzy butelki."
+  npcTalkAudio:
+  - {fileID: 8300000, guid: 0f9d2419b8f68421182fb4eafab4f600, type: 3}
+  - {fileID: 8300000, guid: 1c0eb90919d1742b992b30dc2ca63851, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue:
+  - exit
+  playerTalkDialogue:
+  - "Pozby\u0142em si\u0119 niechcianego go\u015Bcia."
+  - "Gdzie znajd\u0119 te napoje?"
+  playerTalkAudio:
+  - {fileID: 8300000, guid: a16bd2da65ebc48c09c2ed904007d41f, type: 3}
+  - {fileID: 8300000, guid: dc5517ec5dede4ca0a4a280d85fa6c68, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - exit

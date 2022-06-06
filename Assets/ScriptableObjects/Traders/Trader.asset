@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289c86299c91853459f5740fb426713c, type: 3}
+  m_Name: Trader
+  m_EditorClassIdentifier: 
+  Name: Weapon Trader
+  gold: 2800
+  items:
+  - {fileID: 11400000, guid: 1eedfee6adcf15049bb769804319ce9a, type: 2}
+  - {fileID: 11400000, guid: 7470905b28afae94c92944edc4c40692, type: 2}
+  - {fileID: 11400000, guid: 5634d04d4a6893d4a808813f4d66a5e2, type: 2}
+  - {fileID: 11400000, guid: 6f81ad2a744d9a64d940563553d2c4c7, type: 2}
+  - {fileID: 11400000, guid: 344d093530b6f6d46a8a80ce5bfe1aa0, type: 2}
+  - {fileID: 11400000, guid: aed551bb4cae68046ab67cc5f21fb119, type: 2}
+  - {fileID: 11400000, guid: e6ac75710d3bc4340a46f1b8ce73a4b0, type: 2}
+  - {fileID: 11400000, guid: 4f2acaf0f69e89f4c9db72b4dc45070b, type: 2}
+  - {fileID: 11400000, guid: 14205ccf103fd2142aceda469087ec6f, type: 2}
+  - {fileID: 11400000, guid: 697b86ffac43bcc43a8beb002cadad8f, type: 2}
+  - {fileID: 11400000, guid: 4c3e1be3c0d0d9e4f96a43f09a9e64f2, type: 2}
+  - {fileID: 11400000, guid: 2676651221b98984bb23da8aa068f916, type: 2}
+  - {fileID: 11400000, guid: 11fbe9feccf82db4c87fd0c8f1d0642a, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c214cd62ddbf4e44c9d90ea71a00da59, type: 3}
+  m_Name: Lumberjack Axe
+  m_EditorClassIdentifier: 
+  Name: Lumberjack Axe
+  itemType: 0
+  weaponType: 1
+  icon: {fileID: 21300000, guid: af22b075382f3b34c9c717a0e07d0e29, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  mesh: {fileID: 6426126718921815513, guid: e53fcf2af7c669d4a8696dfee31226fa, type: 3}
+  requiredLvl: 3
+  price: 750
+  armorModifier: 0
+  damageModifier: 25
+  healthModifier: 0
+  manaModifier: 0
+  staminaModifier: 0
+  weaponConditionModifier: 100
+  Eatable: 0

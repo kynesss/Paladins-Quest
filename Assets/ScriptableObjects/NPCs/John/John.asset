@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: John
+  m_EditorClassIdentifier: 
+  _name: John
+  npcTalkDialogue:
+  - "S\u0142uchaj jest sprawa, trzeba pozby\u0107 si\u0119\_niechcianego go\u015Bcia
+    z mojej chaty."
+  - "W drugim pokoju znajduje si\u0119 skrzynia z napojami leczniczymi, mo\u017Cesz
+    je sobie wzi\u0105\u015B\u0107."
+  npcTalkAudio:
+  - {fileID: 8300000, guid: 7f5c8d67c690c4f80b20cf0dcba7fa55, type: 3}
+  - {fileID: 8300000, guid: 5babd08a76a5d45b2bb255a66220c0b5, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue:
+  - exit
+  playerTalkDialogue:
+  - "Co si\u0119 dzieje?"
+  - "Co b\u0119d\u0119 z tego mia\u0142?"
+  playerTalkAudio:
+  - {fileID: 8300000, guid: 55fe026eba16c4605beb8721b1f9fd4c, type: 3}
+  - {fileID: 8300000, guid: 93329ec6e98864e919dda7b7cd764516, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - exit

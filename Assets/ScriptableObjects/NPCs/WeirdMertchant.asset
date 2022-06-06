@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: WeirdMertchant
+  m_EditorClassIdentifier: 
+  _name: Podejrzany Kupiec
+  npcTalkDialogue:
+  - "Nie mam zbytnio nic na sprzeda\u017C. Ale s\u0142uchaj jest okazja. B\u0119dziesz
+    musia\u0142 zdoby\u0107 pewien artefakt a w zamian b\u0119dziesz m\xF3g\u0142
+    go sobie zatrzyma\u0107."
+  - "Szmaragdowe oczko. Wydaje si\u0119 by\u0107 przyczyn\u0105 problemu. Zgodnie
+    z legend\u0105 je\u015Bli kto\u015B z\u0142o\u017Cy szmaragdowe oczko na kakaowym
+    piedestale w cebulowej \u015Bwi\u0105tyni zmarli powstan\u0105 z grob\xF3w."
+  - "Nie tak szybko przyjacielu. Cebulowe wej\u015Bcie jest zamkni\u0119te jakim\u015B
+    dziwnym zakl\u0119ciem. Obok \u015Bwi\u0105tyni znajduje si\u0119 kakaowa formacja
+    skalna. Z jakiego\u015B powodu szkieletory pilnuj\u0105 tego miejsca. Mo\u017Ce
+    tam powinene\u015B si\u0119 uda\u0107?"
+  - "Uwa\u017Caj na siebie!"
+  npcTalkAudio:
+  - {fileID: 8300000, guid: 6450227d6202c4cf1a7fca3c33f992e9, type: 3}
+  - {fileID: 8300000, guid: bdbde9b53af684949878480e40be278b, type: 3}
+  - {fileID: 8300000, guid: c63d0f337b85d473d8bfe0868844606f, type: 3}
+  - {fileID: 8300000, guid: 0c47d5f60c492468fb689fbec527bb36, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue:
+  - 1
+  playerTalkDialogue:
+  - "Poka\u017C mi swoje towary."
+  - Co to za artefakt?
+  - "O jasna cholera. Zatem udaj\u0119 si\u0119\_jak najszybciej do \u015Bwi\u0105tyni."
+  - "Zobacz\u0119 co da si\u0119 zrobi\u0107."
+  playerTalkAudio:
+  - {fileID: 8300000, guid: f90c54850f65d4670aa53e3135a077de, type: 3}
+  - {fileID: 8300000, guid: ba751e4940eb7464299123cfadd03da9, type: 3}
+  - {fileID: 8300000, guid: cd7ba5f56fe68487896cf8347f8158de, type: 3}
+  - {fileID: 8300000, guid: 8885f87164b0b4c2bb993a19a0410c7b, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - exit

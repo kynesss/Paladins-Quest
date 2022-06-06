@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a66d68064e279b4f903be2e5363d462, type: 3}
+  m_Name: Veronica (copy) 1
+  m_EditorClassIdentifier: 
+  _name: Veronica
+  npcTalkDialogue:
+  - "Jaki\u015B dziwny menel w mrocznych szatach uda\u0142 si\u0119 w stron\u0119\_g\xF3r,
+    krzycz\u0105c co\u015B o jakim\u015B oczku."
+  - "Nie pami\u0119tam."
+  npcTalkAudio:
+  - {fileID: 8300000, guid: 8014a699591244611a9e44182cf2e641, type: 3}
+  - {fileID: 8300000, guid: 3ee59b68a88284c2f9e48e089c3c1069, type: 3}
+  npcQuestDialogue: []
+  npcTradeDialogue: []
+  npcExitDialogue:
+  - Exit
+  playerTalkDialogue:
+  - Jak leci?
+  - "Czy mo\u017Cliwe, \u017Ce m\xF3wi\u0142 o szmaragdowym oczku?"
+  playerTalkAudio:
+  - {fileID: 8300000, guid: 07837eef5a2064f568a68d638e6de733, type: 3}
+  - {fileID: 8300000, guid: 11f00f861b55e42f09b5f52c039157b7, type: 3}
+  playerQuestDialogue: []
+  playerTradeDialogue: []
+  playerExitDialogue:
+  - Exit
